@@ -37,4 +37,5 @@ we load the pretrained model & weights, freeze all layers, and then create a new
 
 # Run Our Model
 
-- Costum Your Own Model
+- Option 1: You can simply run our .ipynb file to get a new model of yours. The accuracy will range from 80% and up to 90% with more epochs (but i don't recommend this because of the overfitting risk)
+- Option 2: You can download our saved model, we already provided several formats such as .tflite, .h5, .json, and .pb. We recommend to embedded our tflite model to the application
